@@ -13,7 +13,7 @@ public class CCuenta {
        /**
  * Esta clase recoge constructores y métodos para controlar cuentas corrientes
  * @author gloria ruiz gomez-vazquez
- * @version 2023
+ * @version 2023, efectuando cambios desde Github aunque no es lo habitual
  */
     
     /**
