@@ -10,24 +10,44 @@ package ccuenta;
  */
 public class CCuenta {
 
-       // Propiedades de la Clase Cuenta
+       /**
+ * Esta clase recoge constructores y métodos para controlar cuentas corrientes
+ * @author gloria ruiz gomez-vazquez
+ * @version 2023
+ */
+    
+    /**
+     * Atributos encapsulados de la clase CCuenta
+     */
     private String nombre;
     private String cuenta;
     private double saldo;
     private double tipoInterés;
 
-    /* Constructor sin argumentos */
+    /**
+     * constructor sin argumentos
+     */
     public CCuenta ()
     {
     }
-    // Constructor con parámetro para iniciar todas las propiedades de la clase
+ /**
+     * constructor con parámetros que recoge propiedades de nombre, cuenta, saldo y tipoInteres
+     * @param nom   recoge el nombre
+     * @param cue   recoge el numero de cuenta
+     * @param sal   recoge el saldo
+     * @param tipo  recoge el tipo de interes
+     */
     public CCuenta (String nom, String cue, double sal, double tipo)
     {
         nombre=nom;
         cuenta=cue;
         saldo=sal;
     }
-   // Método para asignar el nombre del titular de la cuenta
+
+/**
+     * Método para asignar el nombre del titular de la cuenta
+     * @param nom nombre del titular
+     */
     public void setNombre(String nom)
     {
         nombre=nom;
